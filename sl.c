@@ -28,7 +28,7 @@ int main() {
 		mvprintw(1,0, dst);
 		indexToEnd(bottom, dst, i);
 		mvprintw(2,0, dst);
-		usleep(12500); // wait a second
+		usleep(15000); // wait a second
 		refresh();
 	}
 	endwin();
